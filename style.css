@@ -1,3 +1,4 @@
+/* === Common shared styles ===  */
 * {
   padding: 0;
   margin: 0;
@@ -7,12 +8,33 @@
   color: orangered;
 }
 
+.button-primary {
+  background-color: orangered;
+  font-size: 22px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.button-secondary {
+  background-color: white;
+  font-size: 22px;
+  border: 1px solid orangered;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: orangered;
+}
+
+/* ===  nav bar related styles ===  */
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
   background-color: rgb(255, 235, 220);
+  padding-left: 150px;
+  padding-right: 50px;
+  height: 10vh;
 }
 
 .nav-name {
@@ -32,32 +54,44 @@ nav li {
   margin-right: 50px;
 }
 
-.button-primary {
-  background-color: orangered;
-  font-size: 22px;
-  border: none;
-  padding: 15px 25px;
-  border-radius: 10px;
-  color: white;
+/* ==== banner photo related styles ===  */
+
+.header {
+  background-color: #fff8f3;
+  background-image: url("portfolio-resources/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner-container {
-  margin-top: 40px;
-  height: 60vh;
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-.button-secondary {
-  background-color: white;
-  font-size: 22px;
-  border: 1px solid orangered;
-  padding: 10px 20px;
-  border-radius: 10px;
-  color: orangered;
+  justify-content: space-between;
+  padding: 50px 30px 0px 150px;
 }
 
 .profile-photo {
-  background-image: url(portfolio-resources/images/header_bg.png);
+  width: 500px;
+}
+.banner-content {
+  justify-content: space-around;
+  max-width: 500px;
+  gap: 20px;
+}
+
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.banner-name {
+  font-size: 85px;
+  margin: 10px 0px;
+}
+.banner-description {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.down {
+  margin-right: 40px;
 }
