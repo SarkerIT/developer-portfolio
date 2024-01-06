@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.primary-color {
+  color: orangered;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: rgb(255, 235, 220);
+}
+
+.nav-name {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav ul {
+  display: flex;
+  font-size: 22px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.button-primary {
+  background-color: orangered;
+  font-size: 22px;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  color: white;
+}
+
+.banner-container {
+  margin-top: 40px;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-secondary {
+  background-color: white;
+  font-size: 22px;
+  border: 1px solid orangered;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: orangered;
+}
+
+.profile-photo {
+  background-image: url(portfolio-resources/images/header_bg.png);
+}
