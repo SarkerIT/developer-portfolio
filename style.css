@@ -146,3 +146,31 @@ main {
   line-height: 30px;
   font-weight: 700;
 }
+
+/* what i do styles  */
+
+.what-i-do {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0px;
+  /* border: 1px solid salmon; */
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 10px;
+  gap: 24px;
+  background-color: hsl(0, 0%, 41%, 10%);
+  color: rebeccapurple;
+  border-radius: 10px;
+  box-shadow: 5px 10px hsl(6, 93%, 71%, 30%);
+}
+
+.skill-description,
+.skill-title {
+  margin-top: 20px;
+}
